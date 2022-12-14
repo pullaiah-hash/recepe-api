@@ -1,7 +1,9 @@
 
 const recepes = document.querySelector(".recepes")
 const recepeConatiner = document.querySelector(".recepe-conatiner")
-const menu = document.querySelector(".menu")
+const menu = document.querySelector("#menu-bar")
+const recepeBt = document.querySelector(".recepe-bt")
+
 const popup = document.querySelector(".pop-up")
 
 function getRandomMealData(){
@@ -28,10 +30,7 @@ function getRandom(result,random=false){
    recepeConatiner.insertAdjacentHTML("afterbegin",html)
 }
 //////////////////////////Menu/////////////////////
-menu.addEventListener("click",function(){
-    console.log("popup")
-    // popup.style.opacity = "1"
-})
+
 
 
 
